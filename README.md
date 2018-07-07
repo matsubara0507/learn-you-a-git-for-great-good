@@ -50,6 +50,7 @@
 
 ひとつひとつやってみる
 
+- 可視化するために (`status`/`log`/`diff`)
 - 歴史を重ねる (`add`/`commit`)
 - タイムトラベル (`checkout`)
 - パラレルワールド (`checkout -b`/`branch`)
