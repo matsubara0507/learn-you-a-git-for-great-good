@@ -91,7 +91,7 @@ $ git checkout master
 $ git merge update_sample_color
 ```
 
-## まとめ
+### まとめ
 
 - git にはコミットなどを可視化するコマンドがいくつかある (`status`/`log`/`diff`)
 - git にはコミットを作るためのコマンドがある (`add`/`commit`)
