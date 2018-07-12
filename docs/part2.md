@@ -68,7 +68,7 @@ $ git branch
 試しに別のブランチを作って作業をしてみよう。
 
 ```
-$ git checkout -b update_sample_color
+$ git checkout -b update_sample
 ```
 
 適当に `color` の部分を編集してコミットしてみよう。
