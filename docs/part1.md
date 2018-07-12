@@ -33,7 +33,9 @@ git を知るうえで重要となるモノは主に以下の３つ。
 
 ```
 $ cat sample.csv
-...
+71,fb2735f5-88f3-48ec-8b7a-109c1cfea7f0,田中 愛菜
+83,bd3f7e8f-99c4-4882-b0be-5cc26670f92a,山本 美咲
+51,ccf3a690-d087-4c69-b843-ccf7b1f393ed,鈴木 大翔
 ```
 
 #### コミット
@@ -49,7 +51,10 @@ $ cat sample.csv
 試しにコミットを作ってみよう。
 
 ```
-$ git commit -a -m "First commit"
+$ git add . && git commit -m "First commit"
+[master (root-commit) a117493] First commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 sample.csv
 ```
 
 うまくいっただろうか？
